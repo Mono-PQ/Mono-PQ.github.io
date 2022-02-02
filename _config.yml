@@ -33,8 +33,13 @@ emoji:
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed,
+  - jekyll-feed
   - jemoji
+
+collections:
+   projects:
+    output: true
+    permalink: /:collection/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
