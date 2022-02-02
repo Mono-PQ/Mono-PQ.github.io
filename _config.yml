@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog  &  Portfolio
+title: PQ's Exploration
 email: devdsinf (dot) gmail (dot) com
 description: >- # this means to ignore newlines until "baseurl:"
   A place to explore ideas, opinions and knowledge that drop by once in a while. 
@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: simplemchrome
 github_username:  Mono-PQ
+author: PQ
+
 
 # Build settings
 theme: minima
