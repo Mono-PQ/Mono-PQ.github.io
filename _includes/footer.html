@@ -11,13 +11,16 @@
             <li class="p-name">Author: {{ site.author | escape }}</li>
           {% endif -%}
           {% if site.email -%}
-            <li><a class="u-email">Email: {{ site.email }}</a></li>
+            <li>Email: <a class="u-email">{{ site.email }}</a></li>
           {%- endif %}
+          <li>
+            <svg class="svg-icon">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#github'}}"></use>
+            </svg><a href="https://github.com/Mono-PQ">{{ site.github_username }}</a>
+          </li>
         </ul>
       {%- endif %}
-        <svg class="svg-icon">
-          <use xlink:href="{{ 'assets/minima-social-icons.svg#github'}}"></use>
-        </svg><a href="https://github.com/Mono-PQ">{{ site.github_username }}</a>
+        
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
