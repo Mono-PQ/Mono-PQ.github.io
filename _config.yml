@@ -25,10 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A record of projects that were explored and experiment as part of my learning journey. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: simplemchrome
 github_username:  Mono-PQ
 author: PQ
-
 
 # Build settings
 theme: minima
